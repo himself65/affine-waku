@@ -1,13 +1,17 @@
-import { Counter } from "./Counter.js";
+import { Counter } from './Counter.js'
+import { Suspense } from 'react'
+import { container } from './App.css.js'
 
-const App = ({ name = "Anonymous" }) => {
+const App = ({ name = 'Anonymous' }) => {
   return (
-    <div style={{ border: "3px red dashed", margin: "1em", padding: "1em" }}>
+    <div className={container}>
       <h1>Hello {name}!!</h1>
       <h3>This is a server component.</h3>
-      <Counter />
+      <Suspense fallback="loading...">
+        <Counter />
+      </Suspense>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
