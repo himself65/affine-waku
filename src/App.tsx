@@ -1,4 +1,3 @@
-'use client'
 import { Counter } from "./Counter.js";
 
 const App = ({ name = "Anonymous" }) => {
