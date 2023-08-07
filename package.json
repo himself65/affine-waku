@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "jotai": "^2.1.0",
+    "jotai": "^2.2.3",
     "react": "18.3.0-canary-018c58c9c-20230601",
     "react-dom": "18.3.0-canary-018c58c9c-20230601",
     "react-server-dom-webpack": "18.3.0-canary-018c58c9c-20230601",
     "swr": "^2.1.5",
-    "waku": "0.11.1"
+    "waku": "0.14.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
